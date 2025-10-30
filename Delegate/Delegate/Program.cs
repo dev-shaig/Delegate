@@ -5,7 +5,9 @@ namespace Delegate
     internal class Program
     {
         //public delegate bool CheckNums(int num);
-        //public delegate void ChangeString(string str);
+        //public delegate void ChangeString(string str, int age);
+
+        //public delegate string stringlength(string str);
         static void Main(string[] args)
         {
             #region Stack, Queue, Dictionary
@@ -78,6 +80,20 @@ namespace Delegate
 
             //stringChange("Mail");
 
+            //Action<string> action = StringToUpper;
+            //Action<string> action2 = StringToUpper;
+
+            //action += s => Console.WriteLine(s.ToLower);
+
+            //action += StringToLower;
+
+            //action("Mikayil");
+            //action2("Cebrayil");
+
+            //Console.WriteLine(TextLength(StrLength, "Ismayil", 40));
+            //Func<string, int, string> func = StrLength;
+
+            //Console.WriteLine(func.Invoke("Cebrayil", 13));
 
 
             #endregion
@@ -107,6 +123,15 @@ namespace Delegate
         //    match(word);
         //}
 
+        //public static string StrLength(string word, int age)
+        //{
+        //    return word.Length.ToString() + " " + age ; 
+        //} 
+
+        //public static int TextLength(StringLength func, string str, int age)
+        //{
+        //    return func(str) + age;
+        //}
 
         //public static void StringToUpper(string text)
         //{

@@ -12,3 +12,4 @@ C:\Users\user\Desktop\C#\Delegate\Delegate\Delegate\obj\Debug\net8.0\refint\Dele
 C:\Users\user\Desktop\C#\Delegate\Delegate\Delegate\obj\Debug\net8.0\Delegate.pdb
 C:\Users\user\Desktop\C#\Delegate\Delegate\Delegate\obj\Debug\net8.0\Delegate.genruntimeconfig.cache
 C:\Users\user\Desktop\C#\Delegate\Delegate\Delegate\obj\Debug\net8.0\ref\Delegate.dll
+C:\Users\user\Desktop\C#\Delegate\Delegate\Delegate\obj\Debug\net8.0\Delegate.sourcelink.json
